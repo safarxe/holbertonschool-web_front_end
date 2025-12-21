@@ -1,0 +1,29 @@
+/* Define CSS variables in root */
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+}
+
+/* Body text color using variable */
+body {
+    color: var(--text-color);
+}
+
+/* Anchor elements using variable */
+a {
+    color: var(--text-color);
+}
+
+/* Section tagline using primary color variable */
+.section-tagline {
+    color: var(--color-primary);
+}
+
+/* Category text using primary color variable */
+.card-category {
+    color: var(--color-primary);
+}
